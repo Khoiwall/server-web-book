@@ -7,9 +7,7 @@ const app = express();
 const option = {
 	socketTimeoutMS: 30000,
 	keepAlive: true,
-	reconnectTries: 30000,
-	useNewUrlParser: true,
-	useUnifiedTopology: true
+	reconnectTries: 30000
 };
 const bookRouter = require('./router/book_router.js')
 //conect mongooes
